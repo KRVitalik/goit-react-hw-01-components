@@ -1,16 +1,13 @@
 import styled from 'styled-components';
 
 export const ListsStats = styled.ul`
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  margin: 0 auto;
+  margin: 10px auto;
   `
 
 export const List = styled.li`
-box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 10px;

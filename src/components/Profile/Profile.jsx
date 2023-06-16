@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Container, ListsStats, List } from './Profile.styled'
+import { Container, ListsStats, List, Name } from './Profile.styled'
 
 export const Profile = ({username, tag, location, avatar, stats}) => {
   return (
@@ -10,7 +10,7 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
           alt="User avatar"
           className="avatar"
         />
-        <p className="name">{username}</p>
+        <Name className="name">{username}</Name>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>
       </div>

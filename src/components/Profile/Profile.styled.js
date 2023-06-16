@@ -5,16 +5,13 @@ text-align: center;
 padding: 10px;
 width: 550px;
 border: 2px solid gray;
-margin: 0 auto;
+margin: 10px auto;
 `
 export const ListsStats = styled.ul`
-  list-style: none;
   display: flex;
-  gap: 10px;
   justify-content: space-around;
-  padding: 0;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 5px auto;
   `
   
   export const List = styled.li`
@@ -22,8 +19,12 @@ export const ListsStats = styled.ul`
   gap: 10px;
   padding: 10px;
   flex-direction: column;
-  background-color: #c1c1c1;
+  background-color: #f1f1f1;
   width: 100px;
-  border:5px solid #646363;
-  border-radius: 15px;
+  border:1px solid #646363;
+`
+
+export const Name = styled.p`
+font-weight: 700;
+line-height: 1.5;
 `
