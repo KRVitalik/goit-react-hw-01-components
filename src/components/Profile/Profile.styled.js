@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 text-align: center;
 padding: 10px;
-width: 550px;
+width: 350px;
 border: 2px solid gray;
 margin: 10px auto;
 `
